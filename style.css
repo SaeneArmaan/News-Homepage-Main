@@ -296,50 +296,6 @@ img {
   color: var(--Soft-red);
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-grow: 1;
-  padding: 20px;
-  gap: 20px;
-  color: var(--Off-white);
-  background-color: var(--Very-dark-blue);
-}
-
-footer img {
-  filter: invert(1);
-  width: 15%;
-  padding-right: 20px;
-  border-right: 1px solid var(--Grayish-blue);
-}
-
-.logoWrapper {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  gap: 20px;
-  flex: 1 1 70%;
-}
-
-.logoWrapper > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-self: stretch;
-  gap: 10px;
-  font-size: 0.8rem;
-}
-
-footer a {
-  text-decoration: none;
-  color: var(--Grayish-blue);
-}
-
-footer a:hover {
-  color: var(--Soft-orange);
-}
-
 @media screen and (min-width: 600px) {
   .navBar img:nth-child(3) {
     display: none;
@@ -405,7 +361,7 @@ footer a:hover {
 @media screen and (min-width: 1040px) {
   .mainWrapper {
     display: grid;
-    justify-content: center;
+    place-content: center;
   }
 
   .webWrapper {
